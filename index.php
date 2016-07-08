@@ -109,3 +109,6 @@ $setdate2 = new Carbon();
 $setdate2->setDate(2013, 5, 4);
 var_dump($setdate2);
 echo "<br>";
+
+//other options to explowe: setTime, setDateTime...
+
