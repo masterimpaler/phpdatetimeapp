@@ -4,15 +4,22 @@
 * Created by Wachira J
 * User: Public
 * Date: 7th July 2016
-* A lot of document of date functions can be found on php.net. I'm only illustrating using a few
+* A lot of documention on date functions can be found on php.net. I'm only illustrating using a few
 *   examples here 
 */
 
+/*
+* You will need to include the following two lines of code in the file you wish to use this app
+*/
 use Carbon\Carbon;
 
 require 'vendor/autoload.php';
 
+/*
+* EXAMPLES START BELOW
+*/
 
+//creating an object
 $date = new Carbon();
 //outputs the date object created above
 var_dump($date);
